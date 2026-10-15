@@ -35,6 +35,7 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+    <span id="new-tab-note" hidden>Opens in a new tab.</span>
     <div class="page">
       <!-- HEADER: your name and navigation. -->
       <header class="site-header" id="top">
@@ -54,7 +55,7 @@
         <section class="about" id="about" aria-labelledby="about-heading">
           <div class="biography">
             <h2 class="visually-hidden" id="about-heading">About</h2>
-            <p>I am a tenure-track Assistant Professor in the Department of International Economics, Government and Business at <a href="https://www.cbs.dk/research/departments/department-international-economics-government-and-business-egb/michael-mueller">Copenhagen Business School</a>. My research examines how immigration, social movements, and political connections shape corporate behavior.</p>
+            <p>I am a tenure-track Assistant Professor in the Department of International Economics, Government and Business at <a href="https://www.cbs.dk/research/departments/department-international-economics-government-and-business-egb/michael-mueller" target="_blank" rel="noopener" aria-describedby="new-tab-note">Copenhagen Business School</a>. My research examines how immigration, social movements, and political connections shape corporate behavior.</p>
             <p>I study how founders’ and executives’ backgrounds influence inequality and misconduct, and how firms respond to demands for social change. I also explore the ties between business and politics, including the revolving door between government and business and public perceptions of corruption.</p>
             <p>I hold a PhD from Rotterdam School of Management, Erasmus University.</p>
           </div>
@@ -63,9 +64,9 @@
             <img src="assets/michael-mueller_2.jpeg" alt="Michael Mueller" width="750" height="750" fetchpriority="high">
             <a class="email" href="mailto:mm.egb@cbs.dk">mm.egb@cbs.dk</a>
             <div class="profile-links">
-              <a href="https://www.cbs.dk/research/departments/department-international-economics-government-and-business-egb/michael-mueller">CBS profile</a>
+              <a href="https://www.cbs.dk/research/departments/department-international-economics-government-and-business-egb/michael-mueller" target="_blank" rel="noopener" aria-describedby="new-tab-note">CBS profile</a>
               <span aria-hidden="true">·</span>
-              <a href="https://orcid.org/0000-0001-6923-3193">ORCID</a>
+              <a href="https://orcid.org/0000-0001-6923-3193" target="_blank" rel="noopener" aria-describedby="new-tab-note">ORCID</a>
             </div>
           </aside>
         </section>
@@ -74,131 +75,144 @@
         <section class="research section" id="research" aria-labelledby="research-heading">
           <div class="section-heading">
             <h2 id="research-heading">Research</h2>
-            <a class="small-link" href="https://research.cbs.dk/en/persons/michael-mueller/">CBS Research Portal</a>
+            <a class="small-link" href="https://research.cbs.dk/en/persons/michael-mueller/" target="_blank" rel="noopener" aria-describedby="new-tab-note">CBS Research Portal</a>
           </div>
 
+          <!-- Each research group can be opened or closed. Remove open to start a group collapsed. -->
           <!-- Add a paper by copying a complete outer <li> block. Keep heading ids unique. -->
-          <h3 class="group-heading" id="peer-reviewed-publications">Peer-Reviewed Publications</h3>
-          <ol class="papers" aria-labelledby="peer-reviewed-publications">
-            <li>
-              <article class="paper" aria-labelledby="imprint-title">
-                <h4 id="imprint-title"><a href="https://doi.org/10.1177/01492063261449761">Rewriting the Imprint: How #MeToo Led CEOs From Male-Dominant Cultures to Increase Gender Equality</a></h4>
-                <p class="authors">Michael Mueller and Taco Reus</p>
-                <p class="venue"><cite>Journal of Management</cite>, 2026 (Online First).</p>
-                <details>
-                  <summary>Abstract<span class="visually-hidden"> of Rewriting the Imprint</span></summary>
-                  <p>This paper examines how CEOs’ cultural imprints shape women’s representation in corporate leadership and how social movements can alter these effects. Building on imprinting theory, we argue that transformative social movements, such as the #MeToo movement, can create secondary sensitive periods during which deeply ingrained imprints are revisited and reinterpreted. Using a difference-in-differences design in the U.S. information and communications technology sector, we find that, before #MeToo, firms led by CEOs from male-dominant cultures employed fewer women in senior management. After the movement’s emergence, however, these CEOs increased women’s representation more strongly than their peers from more gender-egalitarian cultures. The effect persisted through 2024, was concentrated in male-typed roles, and was strongest among younger CEOs, consistent with intrinsic rather than purely extrinsic motives. Complementary analyses of employees’ career trajectories, employee reviews, and CEO speech suggest that these changes reflect shifts in promotion dynamics, organizational culture, and CEOs’ emphasis on integrity and respect. Together, the findings show that social movements can prompt lasting behavioral change among leaders whose cultural imprints are most directly challenged.</p>
-                </details>
-              </article>
-            </li>
-          </ol>
+          <details class="research-group" open>
+            <summary class="group-summary">
+              <h3 class="group-heading" id="peer-reviewed-publications">Peer-Reviewed Publications</h3>
+            </summary>
+            <ol class="papers" aria-labelledby="peer-reviewed-publications">
+              <li>
+                <article class="paper" aria-labelledby="imprint-title">
+                  <h4 id="imprint-title"><a href="https://doi.org/10.1177/01492063261449761" target="_blank" rel="noopener" aria-describedby="new-tab-note">Rewriting the Imprint: How #MeToo Led CEOs From Male-Dominant Cultures to Increase Gender Equality</a></h4>
+                  <p class="authors">Michael Mueller and Taco Reus</p>
+                  <p class="venue"><cite>Journal of Management</cite>, 2026 (Online First).</p>
+                  <details>
+                    <summary>Abstract<span class="visually-hidden"> of Rewriting the Imprint</span></summary>
+                    <p>This paper examines how CEOs’ cultural imprints shape women’s representation in corporate leadership and how social movements can alter these effects. Building on imprinting theory, we argue that transformative social movements, such as the #MeToo movement, can create secondary sensitive periods during which deeply ingrained imprints are revisited and reinterpreted. Using a difference-in-differences design in the U.S. information and communications technology sector, we find that, before #MeToo, firms led by CEOs from male-dominant cultures employed fewer women in senior management. After the movement’s emergence, however, these CEOs increased women’s representation more strongly than their peers from more gender-egalitarian cultures. The effect persisted through 2024, was concentrated in male-typed roles, and was strongest among younger CEOs, consistent with intrinsic rather than purely extrinsic motives. Complementary analyses of employees’ career trajectories, employee reviews, and CEO speech suggest that these changes reflect shifts in promotion dynamics, organizational culture, and CEOs’ emphasis on integrity and respect. Together, the findings show that social movements can prompt lasting behavioral change among leaders whose cultural imprints are most directly challenged.</p>
+                  </details>
+                </article>
+              </li>
+            </ol>
+          </details>
 
-          <h3 class="group-heading" id="book-chapters">Book Chapters</h3>
-          <ol class="papers" aria-labelledby="book-chapters">
-            <li>
-              <article class="paper" aria-labelledby="revolving-door-chapter-title">
-                <h4 id="revolving-door-chapter-title"><a href="https://global.oup.com/academic/product/the-oxford-handbook-of-lobbying-and-its-regulation-9780198913771">The Revolving Door and the Use of Political Skill in the Private Sector</a></h4>
-                <p class="authors">Benjamin Egerod, Michael Mueller, and Jan Stuckatz</p>
-                <p class="venue">In <cite>The Oxford Handbook of Lobbying and its Regulation</cite>, edited by Raj Chari, Michele Crepaz, Wiebke Marie Junk, and Emilia Korkea-aho. Oxford University Press, forthcoming.</p>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="distance-title">
-                <h4 id="distance-title"><a href="https://doi.org/10.1108/S1745-886220170000012020">How the Direction of Institutional Distance Influences Foreign Entry Mode Choices: An Information Economics Perspective</a></h4>
-                <p class="authors">Michael Mueller, Guus Hendriks, and Arjen Slangen</p>
-                <p class="venue">In <cite>Distance in International Business: Concept, Cost and Value</cite>, Vol. 12, pp. 271–296. Emerald Publishing Limited, 2017.</p>
-                <ul class="paper-notes" aria-label="Awards and recognition">
-                  <li>Winner Copenhagen Business School Best Paper Prize (European International Business Academy, 2016)</li>
-                </ul>
-                <details>
-                  <summary>Abstract<span class="visually-hidden"> of How the Direction of Institutional Distance Influences Foreign Entry Mode Choices</span></summary>
-                  <p>In this chapter, we aim to shed more light on the role of formal institutional distance in firms’ foreign entry mode choices by accounting for the direction of that distance. Specifically, we distinguish between foreign entries where the host country is institutionally less developed than the investing firm’s home country (negative institutional distance) and those where the host country’s institutions are comparatively more developed (positive institutional distance), and explore whether these different types of entries are implemented through different equity-based modes. We take an information economics perspective to develop hypotheses on the effects of positive and negative formal institutional distance on firms’ choices between greenfields and acquisitions, and between full and partial ownership of greenfield and acquired subsidiaries. We test our hypotheses on a sample of 1,070 foreign entries made by 796 emerging market multinationals originating from 14 countries. Controlling for the host country’s formal institutional quality and other factors, we find that negative institutional distance increases the likelihood that a foreign entry takes the form of a greenfield investment rather than an acquisition and that positive institutional distance decreases that likelihood. We also find that negative institutional distance increases the chances that firms choose greenfield joint ventures over wholly owned greenfields and full over partial acquisitions. Finally, we find that positive institutional distance does not affect firms’ ownership stake choices, neither for greenfields nor for acquisitions. Overall, these findings argue for a nuanced, contingency view of the role of formal institutional distance in foreign entry mode choices. To the best of our knowledge, this study is the first to use information economics to construct a holistic picture of firms’ equity-based entry mode choices, taking into account both establishment and ownership modes</p>
-                </details>
-              </article>
-            </li>
-          </ol>
+          <details class="research-group" open>
+            <summary class="group-summary">
+              <h3 class="group-heading" id="book-chapters">Book Chapters</h3>
+            </summary>
+            <ol class="papers" aria-labelledby="book-chapters">
+              <li>
+                <article class="paper" aria-labelledby="revolving-door-chapter-title">
+                  <h4 id="revolving-door-chapter-title"><a href="https://global.oup.com/academic/product/the-oxford-handbook-of-lobbying-and-its-regulation-9780198913771" target="_blank" rel="noopener" aria-describedby="new-tab-note">The Revolving Door and the Use of Political Skill in the Private Sector</a></h4>
+                  <p class="authors">Benjamin Egerod, Michael Mueller, and Jan Stuckatz</p>
+                  <p class="venue">In <cite>The Oxford Handbook of Lobbying and its Regulation</cite>, edited by Raj Chari, Michele Crepaz, Wiebke Marie Junk, and Emilia Korkea-aho. Oxford University Press, forthcoming.</p>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="distance-title">
+                  <h4 id="distance-title"><a href="https://doi.org/10.1108/S1745-886220170000012020" target="_blank" rel="noopener" aria-describedby="new-tab-note">How the Direction of Institutional Distance Influences Foreign Entry Mode Choices: An Information Economics Perspective</a></h4>
+                  <p class="authors">Michael Mueller, Guus Hendriks, and Arjen Slangen</p>
+                  <p class="venue">In <cite>Distance in International Business: Concept, Cost and Value</cite>, Vol. 12, pp. 271–296. Emerald Publishing Limited, 2017.</p>
+                  <ul class="paper-notes" aria-label="Awards and recognition">
+                    <li>Winner Copenhagen Business School Best Paper Prize (European International Business Academy, 2016)</li>
+                  </ul>
+                  <details>
+                    <summary>Abstract<span class="visually-hidden"> of How the Direction of Institutional Distance Influences Foreign Entry Mode Choices</span></summary>
+                    <p>In this chapter, we aim to shed more light on the role of formal institutional distance in firms’ foreign entry mode choices by accounting for the direction of that distance. Specifically, we distinguish between foreign entries where the host country is institutionally less developed than the investing firm’s home country (negative institutional distance) and those where the host country’s institutions are comparatively more developed (positive institutional distance), and explore whether these different types of entries are implemented through different equity-based modes. We take an information economics perspective to develop hypotheses on the effects of positive and negative formal institutional distance on firms’ choices between greenfields and acquisitions, and between full and partial ownership of greenfield and acquired subsidiaries. We test our hypotheses on a sample of 1,070 foreign entries made by 796 emerging market multinationals originating from 14 countries. Controlling for the host country’s formal institutional quality and other factors, we find that negative institutional distance increases the likelihood that a foreign entry takes the form of a greenfield investment rather than an acquisition and that positive institutional distance decreases that likelihood. We also find that negative institutional distance increases the chances that firms choose greenfield joint ventures over wholly owned greenfields and full over partial acquisitions. Finally, we find that positive institutional distance does not affect firms’ ownership stake choices, neither for greenfields nor for acquisitions. Overall, these findings argue for a nuanced, contingency view of the role of formal institutional distance in foreign entry mode choices. To the best of our knowledge, this study is the first to use information economics to construct a holistic picture of firms’ equity-based entry mode choices, taking into account both establishment and ownership modes</p>
+                  </details>
+                </article>
+              </li>
+            </ol>
+          </details>
 
           <!-- Only add an Abstract disclosure when the paper's original abstract is available. -->
-          <h3 class="group-heading work-in-progress-heading" id="work-in-progress">Selected Work in Progress</h3>
-          <ol class="papers" aria-labelledby="work-in-progress">
-            <li>
-              <article class="paper" aria-labelledby="immigrant-founders-title">
-                <h4 id="immigrant-founders-title">Exemplary Outsiders? Immigrant Founders and Financial Misrepresentation</h4>
-                <p class="authors">Michael Mueller and Taco Reus</p>
-                <p class="venue">Revise and resubmit, <cite>Strategic Management Journal</cite>.</p>
-                <ul class="paper-notes" aria-label="Awards and recognition">
-                  <li>Best Paper of the Track International Business and the 2030 Agenda (European International Business Academy, 2021)</li>
-                  <li>Finalist Danny Van Den Bulcke Best Paper Prize (European International Business Academy, 2021)</li>
-                  <li>Finalist SMS Annual Conference Responsible Research Paper Prize (Strategic Management Society, 2024)</li>
-                </ul>
-                <p class="paper-note">An earlier, abridged version appeared as: Michael Mueller and Taco Reus (2022). <a href="https://doi.org/10.5465/AMBPP.2022.78">Exemplary Outsiders? Immigrant CEOs and Financial Misrepresentation</a>. <cite>Academy of Management Best Paper Proceedings</cite>.</p>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="revolvers-title">
-                <h4 id="revolvers-title">Revolvers in the Corporate Elite</h4>
-                <p class="authors">Benjamin Egerod, Jan Stuckatz, and Michael Mueller</p>
-                <p class="venue">Revise and resubmit, <cite>Management Science</cite>.</p>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="redistributive-leadership-title">
-                <h4 id="redistributive-leadership-title">Trust and Threat: Identity-Aligned Executive Staffing and the Legitimacy of Immigrant CEOs</h4>
-                <p class="authors">Steffen Brenner and Michael Mueller</p>
-                <p class="venue">Revise and resubmit, <cite>Academy of Management Journal</cite>.</p>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="capitalists-without-borders-title">
-                <h4 id="capitalists-without-borders-title">Capitalists Without Borders: Hedge Fund Activism and the Internationalization of the Corporate Elite</h4>
-                <p class="authors">Michael Mueller</p>
-                <p class="venue">Revise and resubmit, <cite>Journal of Management Studies</cite>.</p>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="country-of-origin-title">
-                <h4 id="country-of-origin-title">That’s How I Grew Up! CEO Country of Origin and Corporate Pro-Social Behavior</h4>
-                <p class="authors">Michael Mueller</p>
-                <ul class="paper-notes" aria-label="Awards and recognition">
-                  <li>Finalist Alan M. Rugman Young Scholar Award (Academy of International Business, 2020)</li>
-                  <li>Finalist Best Paper in Corporate Social Responsibility and Sustainability Award (Academy of Management, International Management Division, 2020)</li>
-                </ul>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="judging-the-jersey-title">
-                <h4 id="judging-the-jersey-title">Judging the Jersey: Home Country Status Bias and Managerial Dismissal</h4>
-                <p class="authors">Michael Mueller and Taco Reus</p>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="movement-to-voice-title">
-                <h4 id="movement-to-voice-title">From Movement to Voice: Discursive Legitimacy and Harassment Disclosure after #MeToo</h4>
-                <p class="authors">Michael Mueller and Steffen Brenner</p>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="higher-highs-title">
-                <h4 id="higher-highs-title">Higher Highs and Lower Lows: Political Connections, Geopolitical Risk, and International Investment</h4>
-                <p class="authors">Benjamin Egerod, Michael Mueller, Jan Stuckatz, and Flladina Zilja</p>
-                <ul class="paper-notes" aria-label="Awards and recognition">
-                  <li>Runner-up CIBUL Award (European International Business Academy, 2025)</li>
-                </ul>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="corruption-perceptions-title">
-                <h4 id="corruption-perceptions-title">Corruption Perceptions Home and Abroad: Universal Values or Double Standards?</h4>
-                <p class="authors">Zoltán Fazekas, Michael Mueller, Yumi Park, and Mogens Kamp Justesen</p>
-              </article>
-            </li>
-            <li>
-              <article class="paper" aria-labelledby="partners-in-crime-title">
-                <h4 id="partners-in-crime-title">Partners in Crime, Unequal in Blame: How a Politician’s Counterparty Shapes Public Accountability for Corruption</h4>
-                <p class="authors">Zoltán Fazekas, Yumi Park, Mogens Kamp Justesen, and Michael Mueller</p>
-              </article>
-            </li>
-          </ol>
+          <details class="research-group research-group--work-in-progress" open>
+            <summary class="group-summary">
+              <h3 class="group-heading" id="work-in-progress">Selected Work in Progress</h3>
+            </summary>
+            <ol class="papers" aria-labelledby="work-in-progress">
+              <li>
+                <article class="paper" aria-labelledby="immigrant-founders-title">
+                  <h4 id="immigrant-founders-title">Exemplary Outsiders? Immigrant Founders and Financial Misrepresentation</h4>
+                  <p class="authors">Michael Mueller and Taco Reus</p>
+                  <p class="venue">Revise and resubmit, <cite>Strategic Management Journal</cite>.</p>
+                  <ul class="paper-notes" aria-label="Awards and recognition">
+                    <li>Best Paper of the Track International Business and the 2030 Agenda (European International Business Academy, 2021)</li>
+                    <li>Finalist Danny Van Den Bulcke Best Paper Prize (European International Business Academy, 2021)</li>
+                    <li>Finalist SMS Annual Conference Responsible Research Paper Prize (Strategic Management Society, 2024)</li>
+                  </ul>
+                  <p class="paper-note">An earlier, abridged version appeared as: Michael Mueller and Taco Reus (2022). <a href="https://doi.org/10.5465/AMBPP.2022.78" target="_blank" rel="noopener" aria-describedby="new-tab-note">Exemplary Outsiders? Immigrant CEOs and Financial Misrepresentation</a>. <cite>Academy of Management Best Paper Proceedings</cite>.</p>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="revolvers-title">
+                  <h4 id="revolvers-title">Revolvers in the Corporate Elite</h4>
+                  <p class="authors">Benjamin Egerod, Jan Stuckatz, and Michael Mueller</p>
+                  <p class="venue">Revise and resubmit, <cite>Management Science</cite>.</p>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="redistributive-leadership-title">
+                  <h4 id="redistributive-leadership-title">Trust and Threat: Identity-Aligned Executive Staffing and the Legitimacy of Immigrant CEOs</h4>
+                  <p class="authors">Steffen Brenner and Michael Mueller</p>
+                  <p class="venue">Revise and resubmit, <cite>Academy of Management Journal</cite>.</p>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="capitalists-without-borders-title">
+                  <h4 id="capitalists-without-borders-title">Capitalists Without Borders: Hedge Fund Activism and the Internationalization of the Corporate Elite</h4>
+                  <p class="authors">Michael Mueller</p>
+                  <p class="venue">Revise and resubmit, <cite>Journal of Management Studies</cite>.</p>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="country-of-origin-title">
+                  <h4 id="country-of-origin-title">That’s How I Grew Up! CEO Country of Origin and Corporate Pro-Social Behavior</h4>
+                  <p class="authors">Michael Mueller</p>
+                  <ul class="paper-notes" aria-label="Awards and recognition">
+                    <li>Finalist Alan M. Rugman Young Scholar Award (Academy of International Business, 2020)</li>
+                    <li>Finalist Best Paper in Corporate Social Responsibility and Sustainability Award (Academy of Management, International Management Division, 2020)</li>
+                  </ul>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="judging-the-jersey-title">
+                  <h4 id="judging-the-jersey-title">Judging the Jersey: Home Country Status Bias and Managerial Dismissal</h4>
+                  <p class="authors">Michael Mueller and Taco Reus</p>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="movement-to-voice-title">
+                  <h4 id="movement-to-voice-title">From Movement to Voice: Discursive Legitimacy and Harassment Disclosure after #MeToo</h4>
+                  <p class="authors">Michael Mueller and Steffen Brenner</p>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="higher-highs-title">
+                  <h4 id="higher-highs-title">Higher Highs and Lower Lows: Political Connections, Geopolitical Risk, and International Investment</h4>
+                  <p class="authors">Benjamin Egerod, Michael Mueller, Jan Stuckatz, and Flladina Zilja</p>
+                  <ul class="paper-notes" aria-label="Awards and recognition">
+                    <li>Runner-up CIBUL Award (European International Business Academy, 2025)</li>
+                  </ul>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="corruption-perceptions-title">
+                  <h4 id="corruption-perceptions-title">Corruption Perceptions Home and Abroad: Universal Values or Double Standards?</h4>
+                  <p class="authors">Zoltán Fazekas, Michael Mueller, Yumi Park, and Mogens Kamp Justesen</p>
+                </article>
+              </li>
+              <li>
+                <article class="paper" aria-labelledby="partners-in-crime-title">
+                  <h4 id="partners-in-crime-title">Partners in Crime, Unequal in Blame: How a Politician’s Counterparty Shapes Public Accountability for Corruption</h4>
+                  <p class="authors">Zoltán Fazekas, Yumi Park, Mogens Kamp Justesen, and Michael Mueller</p>
+                </article>
+              </li>
+            </ol>
+          </details>
         </section>
 
         <!-- CONTACT: if your email changes, also update the portrait links and search metadata. -->
