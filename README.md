@@ -9,7 +9,7 @@ Repository: https://github.com/mjmue/mjmue.github.io
 
 - Edit the biography, research entries, and contact information in `index.html`.
 - Edit typography, colors, and spacing in `styles.css`.
-- Each research category is a `<details class="research-group" open>` block. Click its heading to open or close it; remove `open` to start it collapsed. Abstracts open independently.
+- Click each research category heading to open or close it. Only Peer-Reviewed Publications starts open; Book Chapters and Selected Work in Progress start closed. Add or remove `open` on a category’s `<details class="research-group">` tag to change its initial state. Abstracts open independently.
 - External links and PDFs use `target="_blank" rel="noopener"` to open in a new tab. Use `aria-describedby="new-tab-note"` to announce this to screen readers. Keep navigation and email links without a target.
 - Replace `assets/cv.pdf` with a fresh PDF export when updating the CV.
 - Keep `assets/fonts/` with the website; it includes Latin Modern fonts and their licenses.
